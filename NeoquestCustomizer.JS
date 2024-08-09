@@ -58,7 +58,8 @@
                 img.src = `https://images.neopets.com/pets/happy/${species}_${color}_baby.gif`;
             } else if (img.src.includes('images.neopets.com/nq/n/lupe_lose.gif')) {
                 img.src = `https://images.neopets.com/pets/beaten/${species}_${color}_baby.gif`;
-            }
+            } else if (img.src.includes('images.neopets.com/nq/tl/lupe')){
+                img.src =`https://images.neopets.com/pets/happy/${species}_${color}_baby.gif`;
         });
     }
 
